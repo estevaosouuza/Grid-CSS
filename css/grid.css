@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+}
+
+.section {
+  min-height: 200px;
+  width: 100%;
+}
+
+.line {
+  max-width: 1080px;
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+.line-fw {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+}
+
+.col-12 {
+  width: 100%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-11 {
+  width: 91.6%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-10 {
+  width: 83.2%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-9 {
+  width: 74.82%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-8 {
+  width: 66.5%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-7 {
+  width: 58.1%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-6 {
+  width: 49.8%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-5 {
+  width: 41.4%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-4 {
+  width: 33.05%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+  
+  
+}
+.col-3 {
+  width: 24.72%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-2 {
+  width: 16.34%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+.col-1 {
+  width: 7.99%;
+  display: inline-block;
+  min-height: 100px;
+  /*INICIO*/
+  background: rgb(211, 211, 211);
+  /*FIM*/
+}
+
+.center-v{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.center-h{
+    text-align: center;
+}
+
+.center-vh{
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.full-h{
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 767px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    display: block;
+    width: 100%;
+  }
+
+  .line {
+    max-width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .line-fw {
+    max-width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+}
